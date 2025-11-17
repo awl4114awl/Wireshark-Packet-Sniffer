@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local PCAP captures (avoid leaking sensitive network data!)
+*.pcap
+*.pcapng
+
+# Logs
+*.log
+
+# Build artifacts (if you later package this)
+dist/
+build/
+*.spec
