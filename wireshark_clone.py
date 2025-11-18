@@ -128,13 +128,26 @@ class WiresharkCloneApp(ctk.CTk):
         try:
             self.iconbitmap("screenshots/icon.ico")
         except Exception:
-            # Fail silently if running on a platform that doesn't support iconbitmap
+            pass
+
+        # --- Force Windows taskbar icon (Tkinter bug workaround) ---
+        try:
+            import ctypes
+            ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(
+                "WiresharkClone.PythonApp"
+            )
+        except Exception:
+            pass
+
+        # Re-apply icon for both title bar + taskbar
+        try:
+            self.iconbitmap("screenshots/icon.ico")
+        except Exception:
             pass
 
         # Window basics
         self.title("Wireshark Clone (Python + tshark)")
         self.geometry("1000x650")
-        self.minsize(900, 550)
 
         # Wireshark-ish dark theme base
         ctk.set_appearance_mode("dark")

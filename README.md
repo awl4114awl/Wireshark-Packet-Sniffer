@@ -31,28 +31,18 @@ All inside a fully custom, modern Python GUI.
 
 ## 🖼 GUI Preview
 
-> Replace this screenshot with your latest UI capture.
-
-```
-screenshots/screenshot.png
-```
+<p align="left">
+  <img src="screenshots/Screenshot 2025-11-18 133713.png" width="650">
+</p>
 
 ---
 
 ## 🧩 App Icon
 
-Your custom dark-mode, transparent icon used in the title bar:
-
-```
-screenshots/icon.ico
-screenshots/icon.png
-```
-
-Add it to your app with:
-
-```python
-self.iconbitmap("screenshots/icon.ico")
-```
+<p align="left">
+  <img src="screenshots/icon.ico" width="50">
+  <img src="screenshots/icon.png" width="200">
+</p>
 
 ---
 
