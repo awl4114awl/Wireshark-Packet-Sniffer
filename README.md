@@ -6,11 +6,14 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
 
+> I designed and developed a GUI-based packet capture and inspection tool using Python and Tshark that implements multi-threaded live packet parsing, BPF filtering, PCAP generation, and protocol-based visual tagging.
+> With this tool I decided to include deep packet inspection features (protocol tree + hex dump) and real-time statistics dashboards built into a Wireshark-inspired dark UI using CustomTkinter, ttk theming, and custom scrollbars.
+
 ---
 
 ## 🧠 Overview
 
-This project is a **Wireshark-style packet sniffer** built with:
+This **Wireshark-style packet sniffer** is built with:
 
 * **Tshark** (Wireshark’s CLI backend)
 * **CustomTkinter** for a modern dark-theme GUI
@@ -128,16 +131,6 @@ packet-sniffer/
 ├── .gitignore                 # Ignore venv, cache, PCAPs
 └── LICENSE                    # MIT License
 ```
-
----
-
-## 📘 Resume-Style Project Summary
-
-> **Wireshark-Style Packet Sniffer (Python, Tshark, CustomTkinter)**
-> Designed and developed a GUI-based packet capture and inspection tool using Python and Tshark.
-> Implemented multi-threaded live packet parsing, BPF filtering, PCAP generation, and protocol-based visual tagging.
-> Built deep packet inspection features (protocol tree + hex dump) and real-time statistics dashboards.
-> Created a Wireshark-inspired dark UI using CustomTkinter, ttk theming, and custom scrollbars.
 
 ---
 
