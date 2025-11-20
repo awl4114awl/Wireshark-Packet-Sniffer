@@ -33,35 +33,14 @@ The Wireshark-Style Packet Sniffer is a modern, dark-themed Windows desktop appl
 
 ## ☰ Features
 
-### 🔹 Real-Time Packet Capture
-
 * Live capture via Tshark
 * BPF filter support (`tcp port 80`, `udp`, `icmp`, etc.)
 * Start / Pause / Resume / Stop controls
-
-### 🔹 Live Statistics
-
-* Total packets
-* Packets per second
-* Total bytes
-* Top protocol
-* Top talkers
-
-### 🔹 Wireshark-Style Packet Table
-
 * Fully dark-themed `ttk.Treeview`
 * Colored rows per protocol (DNS, TCP, UDP, HTTP, TLS, Other)
-* Smooth vertical + horizontal scrollbars
-* Resizable columns
-
-### 🔹 Deep Packet Inspection
-
 * **Protocol Tree** (`tshark -V`)
 * **Hex Dump** (`tshark -x`)
 * Auto-loads details when a packet is selected
-
-### 🔹 PCAP Support
-
 * Automatically saves every capture session
 * Export to custom location
 * Fully compatible with Wireshark
