@@ -1,4 +1,4 @@
-# 🐍 Wireshark-Style Packet Sniffer (Python + Tshark)
+# ⌨️ Wireshark-Style Packet Sniffer (Python + Tshark)
 
 ![Python](https://img.shields.io/badge/Python-3.14-blue?style=for-the-badge\&logo=python\&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Backend-TShark-1679A7?style=for-the-badge\&logo=wireshark)
