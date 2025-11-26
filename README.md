@@ -1,10 +1,6 @@
 # ⌨️ Wireshark-Style Packet Sniffer (Python + Tshark)
 
 ![Python](https://img.shields.io/badge/Python-3.14-blue?style=for-the-badge\&logo=python\&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Backend-TShark-1679A7?style=for-the-badge\&logo=wireshark)
-![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-0A84FF?style=for-the-badge)
-![Windows](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows11)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
